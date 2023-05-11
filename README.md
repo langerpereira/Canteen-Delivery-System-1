@@ -1,2 +1,5 @@
 # Canteen-Delivery-System
-An Effective Canteen Delivery System for colleges, schools, hotels, etc.
+
+An effective Canteen Delivery System for colleges, schools, hotels, etc.
+
+Made using HTML,CSS and JavaScript
