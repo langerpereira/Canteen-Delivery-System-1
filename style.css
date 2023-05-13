@@ -38,11 +38,11 @@ body {
 
 .btn-primary {
   color: #fff;
-  background: #16a083;
+  background: #f77300;
 }
 
 .btn-primary:hover {
-  background: #117964;
+  background: #ff9529;
   transition: background 0.3s ease-in-out;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #da680f;
   transition: color 0.3s ease-in-out;
 }
 
@@ -112,7 +112,7 @@ body {
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
     ),
-    url("https://i.postimg.cc/HnwXXtgt/dishes-background-set-on-dining-260nw-1572976891.webp");
+    url("https://i.postimg.cc/13r035wM/istockphoto-1168509627-612x612.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@ body {
   font-weight: 400;
   margin-bottom: 40px;
   text-transform: uppercase;
-  color: #555;
+  color: #b5b4b4;
 }
 
 .food-container {
@@ -324,7 +324,7 @@ body {
 }
 
 .food-description .food-price {
-  color: #117964;
+  color: #da680f;
   font-weight: 700;
 }
 
