@@ -136,7 +136,7 @@ body {
 
 #about {
   padding: 50px 0;
-  background: #f5f5f7;
+  background-image: url("https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg");
 }
 
 .about-wrapper {
@@ -332,7 +332,7 @@ body {
 
 #testimonials {
   padding: 5rem 0;
-  background: rgba(243, 243, 243);
+  background-image: url("https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg");
 }
 
 .testimonial-title {
@@ -377,7 +377,7 @@ body {
 
 #contact {
   padding: 5rem 0;
-  background: rgb(226, 226, 226);
+  background-image: url("https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg");
 }
 
 .contact-container {
@@ -641,3 +641,10 @@ body {
     height: 50vmax;
   }
 }
+
+/*div {
+  background-repeat: no-repeat, repeat;
+  background-image: url("https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg"), url("https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg");
+  background-blend-mode: lighten;
+}
+*/
