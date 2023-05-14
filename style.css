@@ -4,6 +4,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  color: silver;
   padding: 0;
   margin: 0;
 }
@@ -190,6 +191,7 @@ body {
   display: block;
   height: 400px;
   max-width: 100%;
+  border-radius: 14px;
   margin: auto;
   object-fit: cover;
   object-position: right;
@@ -642,6 +644,10 @@ body {
   }
 }
 
+.star-rating{
+  color: gold;
+}
+
 .display-left{
   background-color: #f77300;
   padding: 8px 16px;
@@ -653,6 +659,7 @@ body {
   background-color: #4CAF50; 
   color: white;
 }
+
 
  /*#Merge{
   background-repeat: no-repeat, repeat;
