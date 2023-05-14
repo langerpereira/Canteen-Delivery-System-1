@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body background="https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg">
+<body class="Merge" background="https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg">
     <nav class="navbar">
         <div class="navbar-container container">
             <input type="checkbox" name="" id="">
@@ -49,7 +49,27 @@
                 </p>
             </div>
             <div class="about-img">
-                <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" />
+                <img class="mySlides" src="https://i.postimg.cc/zDTrx3kF/istockphoto-1305451864-612x612.jpg" style="width:100%">
+                <img class="mySlides" src="https://i.postimg.cc/JzpmjgQw/istockphoto-1150376652-612x612.jpg" style="width:100%">
+                <img class="mySlides" src="https://i.postimg.cc/85k5TN5Y/istockphoto-1292617507-612x612.jpg" style="width:100%">
+                <img class="mySlides" src="https://i.postimg.cc/gc3KrPY0/istockphoto-464267263-612x612.jpg" style="width:100%">
+              
+              <script>    //java
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 3000); // Change image every 2 seconds
+              }
+              </script>
             </div>
         </div>
     </section>
@@ -243,7 +263,7 @@
             </div>
         </div>
     </section>
-    <section id="testimonials">
+    <section class="Merge" id="testimonials">
         <h2 class="testimonial-title">What Our Customers Say</h2>
         <div class="testimonial-container container">
             <div class="testimonial-box">
@@ -306,7 +326,7 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section class="Merge" id="contact">
         <div class="contact-container container">
             <div class="contact-img">
                 <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />

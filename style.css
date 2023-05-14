@@ -642,9 +642,20 @@ body {
   }
 }
 
-/*div {
+.display-left{
+  background-color: #f77300;
+  padding: 8px 16px;
+  transition-duration: 0.4s;
+
+
+}
+.display-left:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+ /*#Merge{
   background-repeat: no-repeat, repeat;
   background-image: url("https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg"), url("https://i.postimg.cc/CLT7J2Ny/298545cd34eff4ade29132707c49b427.jpg");
   background-blend-mode: lighten;
 }
-*/
